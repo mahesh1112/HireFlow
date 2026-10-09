@@ -1,0 +1,56 @@
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+backend/uploads/
+
+# Docker
+.dockerenv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Database
+*.sqlite
+*.db
+
+# Uploads
+uploads/
+tmp/
+/tmp/hireflow_uploads/

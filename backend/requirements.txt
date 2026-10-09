@@ -1,0 +1,61 @@
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+psycopg2-binary==2.9.10
+greenlet==3.0.3
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+
+# Redis
+redis==5.2.1
+hiredis==3.1.0
+
+# AI / LLM
+groq
+sentence-transformers==3.3.1
+
+# Vector DB
+pinecone-client==5.0.1
+
+# PDF Report Generation
+reportlab==4.2.5
+
+# File Parsing
+pdfplumber==0.11.4
+python-docx==1.1.2
+pypdf2==3.0.1
+aiofiles==24.1.0
+aiosqlite==0.20.0
+
+# Async / Background
+celery==5.4.0
+kombu==5.4.2
+
+# Utils
+httpx==0.28.1
+tenacity==9.0.0
+pydantic==2.10.5
+pydantic-settings==2.7.1
+python-slugify==8.0.4
+email-validator==2.2.0
+
+# Logging
+structlog==24.4.0
+rich==13.9.4
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.2
+pytest-cov==6.0.0
+httpx==0.28.1
+factory-boy==3.3.1
+faker==33.3.0
